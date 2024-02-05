@@ -1,4 +1,5 @@
 import json
+import os
 import torch
 from flask import Flask, render_template, request
 from PIL import Image, ImageChops, ImageOps
@@ -56,7 +57,6 @@ class Predict():
 
 
 if __name__ == "__main__":
-    import os
     assert os.path.exists('checkpoint/best_accuracy.pth'), "no saved model"
     predict = Predict()
 
