@@ -57,6 +57,7 @@ class Predict():
 
 
 if __name__ == "__main__":
+
     assert os.path.exists('checkpoint/best_accuracy.pth'), "no saved model"
     predict = Predict()
 
