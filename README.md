@@ -1,6 +1,6 @@
 # Flask aplikacija za klasifikaciju znameniki sa CNN-om
 
-Stranica: https://dsabljic-handwriten-digit-classification.onrender.com/ (deployano na render free tier-u pa ce bit mali wait time (~50 sec).
+Stranica: https://dsabljic-handwriten-digit-classification.onrender.com/ (Render free tier pa ce bit mali wait time (~50 sec)).
 
 Docker image: https://hub.docker.com/r/dsabljic24/handwritten-digit-classification
 
